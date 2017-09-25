@@ -1,0 +1,8 @@
+# Apply common role to all systems
+
+- name: Apply common configuration to all nodes
+  hosts: all
+  become: yes
+  roles:
+    - common
+

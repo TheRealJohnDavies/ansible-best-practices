@@ -1,0 +1,17 @@
+---
+# Inventory for Staging environment
+
+all:
+
+  vars:
+    enviro: stg
+
+  children:
+
+    localhost:
+      127.0.0.1:
+        ansible_connection: local
+
+    webservers:
+      www[01:04].stg.example.com:
+

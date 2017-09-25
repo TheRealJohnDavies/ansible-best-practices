@@ -1,0 +1,7 @@
+ansible
+
+PyYAML
+setuptools
+jinja2
+paramiko
+pycrypto

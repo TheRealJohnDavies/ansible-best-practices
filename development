@@ -1,0 +1,17 @@
+---
+# Inventory for Development environment
+
+all:
+
+  vars:
+    enviro: dev
+
+  children:
+
+    localhost:
+      127.0.0.1:
+        ansible_connection: local
+
+    webservers:
+      www[01:04].dev.example.com:
+

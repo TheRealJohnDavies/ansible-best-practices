@@ -1,0 +1,9 @@
+---
+# Vault for all systems
+
+##################################
+# Encrypt this vault before using
+##################################
+
+vault_secret_password: "Password1"
+
